@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>M&B</title>
+</head>
+<body>
+     <!--header section-->
+     <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <div class="container">
+            <a class="navbar-brand text-white" href="#">M&B</a>
+            <button
+              class="navbar-toggler text"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-white opacity-50"
+                    aria-current="page"
+                    href="/index.html"
+                    >Ana Sayfa</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white opacity-50"
+                    href="/about-page.html"
+                    >Hakkımızda</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white opacity-50" href="/contact-page.html">İletişim</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+  
+      <!--form section-->
+      <div class="container">
+        <div class="bg-light mt-5 pb-5 rounded-3">
+            <div class="row text-center">
+                <i class="bi bi-envelope-fill text-primary fs-3 mt-5"></i>
+                <h1 class="fw-bolder">Bizimle İletişime Geçin</h1>
+                <p class="fw-normal mb-5 opacity-75">Sizden haber almak isteriz.</p>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">
+                <form action="https://formsubmit.co/buseyazgan99@gmail.com" method="POST">
+                    <div class="mb-3">
+                        <input type="text" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="İsminiz" required>
+                      </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control form-control-lg" id="exampleFormControlInput2" placeholder="E-mail adresiniz" required>
+                      </div>
+                      <div class="mb-3">
+                        <input type="tel" class="form-control form-control-lg" id="exampleFormControlInput3" placeholder="Telefon numaranız" required>
+                      </div>
+                      <div class="mb-3">
+                        <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" placeholder="Mesajınız" rows="3" required></textarea>
+                      </div>
+                      <div class="mb-3 d-grid">
+                        <button class="btn btn-primary mb- btn-lg">Paylaş</button>
+                      </div>
+                </form>
+            </div>
+        </div>
+        </div>
+      </div>
+
+      <!--contact section-->
+    <div class="">
+        <div class="container">
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-3 col-6">
+                    <div class="text-start">
+                        <i class="bi bi-chat-right-text-fill text-primary fs-3 mb-3"></i>
+                        <h5 class="fw-bolder">Bizimle iletişime geçin</h5>
+                        <div class="mb-5">Destek uzmanlarımızla canlı sohbet edin.</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="text-start">
+                        <i class="bi bi-person-square text-primary fs-3 mb-3"></i>
+                        <h5 class="fw-bolder">Topluluğa sorun</h5>
+                        <div class="mb-5">Diğer müşterilerle iletişime geçin.</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="text-start">
+                        <i class="bi bi-question-square-fill text-primary fs-3 mb-3"></i>
+                        <h5 class="fw-bolder">Destek ekibi</h5>
+                        <div class=" mb-5">Çözüm bulmak için.</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="text-start">
+                        <i class="bi bi-telephone-fill text-primary fs-3 mb-5"></i>
+                        <h5 class="fw-bolder">Bizi arayın</h5>
+                        <div class="mb-5">Bizi iş saatleri içerisinde arayın (555) 892-9403.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--footer-->
+    <div class="bg-dark py-4">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto ps-0 pe-0">
+            <p class="text-white pt-3">Copyright © Buse Yazgan</p>
+          </div>
+          <div class="col-auto ps-0 pe-0">
+            <a class="link-light small" href="#">Gizlilik</a>
+            <span class="text-white mx-2">·</span>
+            <a class="link-light small" href="#">Koşullar</a>
+            <span class="text-white mx-2">·</span>
+            <a class="link-light small" href="#">İletişim</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
